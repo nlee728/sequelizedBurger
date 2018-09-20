@@ -11,15 +11,14 @@
 
 ## Deployment
 
-Play the game [here!](https://aqueous-coast-75249.herokuapp.com/)
+Play the game [here!]
 
 ## Built With
 
-* MySQL
+* Sequelize
 * Node .js
 * Express 
 * Handlebars
-* ORM
 
 ## Authors
 

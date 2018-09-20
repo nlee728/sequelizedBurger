@@ -1,3 +1,4 @@
+var Burger = require("./models/burger");
 var express = require("express");
 var bodyParser = require("body-parser");
 
