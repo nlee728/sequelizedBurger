@@ -19,8 +19,8 @@ app.set("view engine", "handlebars");
 
 require("./routes/api-routes.js")(app);
 
-//Syncing sequelize models and then starting Express ap
-db.sequelize.sync({force: false}).then(function() {
+//Syncing sequelize models and then starting Express app
+db.sequelize.sync({force: true}).then(function() {
   app.listen(PORT, function() {
     console.log("App listening on PORT " + PORT);
   });

@@ -1,4 +1,4 @@
-console.log("Inside burger.js model");
+//console.log("Inside burger.js model");
 module.exports = function(sequelize, DataTypes) {
   var Burger = sequelize.define("burger", {
   burger_name: DataTypes.STRING,
