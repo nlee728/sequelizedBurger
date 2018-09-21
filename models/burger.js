@@ -1,8 +1,9 @@
+console.log("Inside burger.js model");
 module.exports = function(sequelize, DataTypes) {
   var Burger = sequelize.define("burger", {
-  burger_name: Sequelize.STRING,
+  burger_name: DataTypes.STRING,
   devoured: {  
-              type: Sequelize.BOOLEAN, 
+              type: DataTypes.BOOLEAN, 
               allowNull: false, 
               default: false 
             }
