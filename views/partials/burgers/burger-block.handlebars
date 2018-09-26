@@ -1,7 +1,7 @@
 <ul>
-	{{burger_name}}
+	{{this.dataValues.burger_name}}
 
-	<button class="change-eaten" data-id="{{id}}" data-neweaten="{{eaten}}">
+	<button class="change-eaten" data-id="{{this.dataValuesid}}" data-neweaten="{{eaten}}">
 		{{#if eaten}}Devour!{{/if}}
 	</button>
 </ul>
